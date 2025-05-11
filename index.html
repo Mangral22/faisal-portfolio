@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faisal Razaq - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: linear-gradient(to right, #0f0f0f, #1a1a1a);
+      color: #f0f0f0;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #121212;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 2px solid #00ffae;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: #00ffae;
+    }
+    header p {
+      font-size: 1.1rem;
+      color: #bbb;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #00ffae;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      color: #00ffae;
+      border-bottom: 2px solid #00ffae;
+      display: inline-block;
+      padding-bottom: 0.5rem;
+    }
+    .card {
+      background-color: #1a1a1a;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-left: 4px solid #00ffae;
+      box-shadow: 0 0 15px rgba(0,255,174,0.1);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .resume-button {
+      background: #00ffae;
+      color: #000;
+      padding: 0.8rem 1.8rem;
+      border: none;
+      margin-top: 1rem;
+      cursor: pointer;
+      border-radius: 30px;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+    .resume-button:hover {
+      background: #00c990;
+    }
+    footer {
+      background-color: #121212;
+      text-align: center;
+      padding: 1rem;
+      border-top: 2px solid #00ffae;
+      color: #aaa;
+    }
+    a {
+      color: #00ffae;
+    }
+    a:hover {
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Faisal Razaq</h1>
+    <p>Aspiring Data Scientist | Python | Machine Learning | Power BI</p>
+    <nav>
+      <a href="#about"><i class="fas fa-user"></i> About</a>
+      <a href="#skills"><i class="fas fa-code"></i> Skills</a>
+      <a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a>
+      <a href="#education"><i class="fas fa-graduation-cap"></i> Education</a>
+      <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <p>I'm Faisal Razaq, a final-year B.Tech student in Computer Science and Engineering. Passionate about solving real-world problems through data science, machine learning, and visualization tools. I've completed impactful internships and built strong foundations in both frontend and backend technologies.</p>
+  </section>
+
+  <section id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="card">
+      <strong>Languages & Databases:</strong> Python, Java, SQL, MySQL<br>
+      <strong>Libraries & Tools:</strong> Pandas, NumPy, Matplotlib, Scikit-Learn, Power BI<br>
+      <strong>Frameworks & IDEs:</strong> Git, VS Code, IntelliJ IDEA<br>
+      <strong>Other Skills:</strong> NLP, Data Structures, Algorithms, Deep Learning
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2 class="section-title">Internships & Projects</h2>
+    <div class="card">
+      <strong>Codtech IT Solution</strong> (Mar 2025 – Apr 2025)<br>
+      Developed an automated ETL pipeline using Python, Pandas, and Scikit-learn.
+    </div>
+    <div class="card">
+      <strong>Exposys Data Labs</strong> (Jan 2024 – Feb 2024)<br>
+      Built machine learning models for diabetes prediction and data visualization dashboards.
+    </div>
+    <div class="card">
+      <strong>Daneen Al Majaz IT Service</strong> (Aug 2023 – Sep 2023)<br>
+      Worked in frontend development using HTML, CSS, and JavaScript.
+    </div>
+  </section>
+
+  <section id="education">
+    <h2 class="section-title">Education & Courses</h2>
+    <div class="card">
+      <strong>Starex University</strong> (Aug 2020 – Aug 2024)<br>
+      Bachelor of Technology in Computer Science and Engineering
+    </div>
+    <div class="card">
+      <strong>Course:</strong> Data Science Noob to Pro Max – 5 Minute Engineering<br>
+      Covered Python, Machine Learning, SQL, Power BI, Deep Learning, NLP
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Contact</h2>
+    <p><i class="fas fa-envelope"></i> Email: <a href="mailto:faisalrazaaq119@gmail.com">faisalrazaaq119@gmail.com</a></p>
+    <p><i class="fas fa-phone"></i> Phone: 9541221966</p>
+    <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/faisal-razaaq-2160a91a6/" target="_blank">Faisal Razaaq</a></p>
+    <a href="resume.pdf" download><button class="resume-button">Download Resume</button></a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Faisal Razaq. All rights reserved.</p>
+  </footer>
+</body>
+</html>
